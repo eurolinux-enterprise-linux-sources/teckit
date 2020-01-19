@@ -1,6 +1,6 @@
 Name:           teckit
 Version:        2.5.1
-Release:        11%{?dist}
+Release:        9%{?dist}
 Summary:        Conversion library and mapping compiler
 License:        LGPLv2+ or CPL
 Group:          Development/Libraries
@@ -87,12 +87,6 @@ make check
 %{_libdir}/libTECkit_Compiler.so
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.5.1-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.5.1-10
-- Mass rebuild 2013-12-27
-
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.5.1-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
